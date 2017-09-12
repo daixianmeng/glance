@@ -24,8 +24,7 @@ create a database, service credentials, and API endpoints.
 
   .. end
 
-
-   * Create the ``glance`` database:
+* Create the ``glance`` database:
 
      .. code-block:: console
 
@@ -33,7 +32,7 @@ create a database, service credentials, and API endpoints.
 
      .. end
 
-   * Grant proper access to the ``glance`` database:
+* Grant proper access to the ``glance`` database:
 
      .. code-block:: console
 
@@ -46,7 +45,7 @@ create a database, service credentials, and API endpoints.
 
      Replace ``GLANCE_DBPASS`` with a suitable password.
 
-   * Exit the database access client.
+ * Exit the database access client.
 
 #. Source the ``admin`` credentials to gain access to
    admin-only CLI commands:
